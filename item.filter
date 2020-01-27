@@ -12,37 +12,6 @@ ItemDisplay[CLVL>60 GOLD<1000]:
 ItemDisplay[CLVL>70 GOLD<1500]:
 ItemDisplay[CLVL>80 GOLD<2000]:
 
-
-// POTIONS
-ItemDisplay[hp1 CLVL<15]: %RED%[%GRAY%Health%RED%]
-ItemDisplay[hp2 CLVL<15]: %RED%[%WHITE%Health%RED%]
-ItemDisplay[mp1 CLVL<15]: %BLUE%[%GRAY%Mana%BLUE%]
-ItemDisplay[mp2 CLVL<15]: %BLUE%[%WHITE%Mana%BLUE%]
-ItemDisplay[hp1 OR mp1]:
-
-ItemDisplay[hp2 CLVL<20]: %RED%[%GRAY%Health%RED%]
-ItemDisplay[hp3 CLVL<20]: %RED%[%WHITE%Health%RED%]
-ItemDisplay[mp2 CLVL<20]: %BLUE%[%GRAY%Mana%BLUE%]
-ItemDisplay[mp3 CLVL<20]: %BLUE%[%WHITE%Mana%BLUE%]
-ItemDisplay[hp2 OR mp2]:
-
-ItemDisplay[hp3 CLVL<30]: %RED%[%GRAY%Health%RED%]
-ItemDisplay[hp4 CLVL<30]: %RED%[%WHITE%Health%RED%]
-ItemDisplay[mp3 CLVL<30]: %BLUE%[%GRAY%Mana%BLUE%]
-ItemDisplay[mp4 CLVL<30]: %BLUE%[%WHITE%Mana%BLUE%]
-ItemDisplay[hp3 OR mp3]:
-
-ItemDisplay[hp4 CLVL>70]:
-ItemDisplay[mp4 CLVL>70]:
-
-ItemDisplay[hp4]: %RED%[%GRAY%Health%RED%] // Greater Healing potion
-ItemDisplay[hp5]: %RED%[%WHITE%Health%RED%] // Super Healing potion
-ItemDisplay[mp4]: %BLUE%[%GRAY%Mana%BLUE%] // Greater Mana potion
-ItemDisplay[mp5]: %BLUE%[%WHITE%Mana%BLUE%] // Super Mana potion
-
-ItemDisplay[rvs]: %PURPLE%[%GRAY%Rejuvenation%PURPLE%] // Rejuvenation potion
-ItemDisplay[rvl]: %PURPLE%[%WHITE%Rejuvenation%PURPLE%] // Full Rejuvenation potion
-
 // hide gems by grade based on character level
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc AND CLVL>14]: // chipped
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf AND CLVL>24]: // flawed
